@@ -11,6 +11,10 @@ import AccessView from './components/views/Access.vue'
 import ServerView from './components/views/Server.vue'
 import ReposView from './components/views/Repos.vue'
 import ExcelView from './components/views/Excel.vue'
+import DataDasarView from './components/views/DataDasar.vue'
+import KategoriUnitView from './components/views/KategoriUnit.vue'
+import UnitView from './components/views/Unit.vue'
+import CapaianUnitView from './components/views/Capaian_Unit.vue'
 
 // Routes
 const routes = [
