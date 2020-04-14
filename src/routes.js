@@ -67,7 +67,27 @@ const routes = [
         component: ExcelView,
         name: 'Excel',
         meta: {description: 'List of Excel'}
-      }
+      },{
+        path: 'DataDasar',
+        component: DataDasarView,
+        name: 'Data Dasar',
+        meta: {description: ''}
+      },{
+        path: 'KategoriUnit',
+        component: KategoriUnitView,
+        name: 'Kategori Unit',
+        meta: {description: 'l'}
+      },{
+        path: 'Unit',
+        component: UnitView,
+        name: 'Unit',
+        meta: {description: ''}
+      },{
+        path: 'CapaianUnit',
+        component: CapaianUnitView,
+        name: 'Capaian Unit',
+        meta: {description: ''}
+      }  
     ]
   }, {
     // not found handler
