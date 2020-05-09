@@ -13,7 +13,102 @@
         <span class="page">Tables</span>
       </a>
     </router-link>
-
+    <router-link tag="li" class="pageLink" to="/mahasiswa">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Mahasiswa</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Dosen">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Dosen</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Penelitian">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Penelitian</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Abmas">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Abmas</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Publikasi">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Publikasi</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/DataDasar">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Data Dasar</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Aspek">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Aspek</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/MasterIndikator">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Master Indikator</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/JenisSatker">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Jenis Satker</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Periode">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Periode</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Indikator_Periode">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Indikator_Periode</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/SatuanKerja">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Satuan Kerja</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Capaian_Unit">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Capaian Unit</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Indikator_SatuanKerja">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Indikator Satuan Kerja</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Indikator_SatuanKerja_Log">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Indikator Satuan Kerja Log</span>
+      </a>
+    </router-link>
+    <router-link tag="li" class="pageLink" to="/Coba">
+      <a>
+        <i class="fa fa-table"></i>
+        <span class="page">Coba</span>
+      </a>
+    </router-link>
     <li class="header">ME</li>
     <router-link tag="li" class="pageLink" to="/tasks">
       <a>
@@ -100,23 +195,19 @@ export default {
 .sidebar-menu > li > a {
   padding: 12px 15px 12px 15px;
 }
-
 .sidebar-menu li.active > a > .fa-angle-left,
 .sidebar-menu li.active > a > .pull-right-container > .fa-angle-left {
   animation-name: rotate;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
-
 .treeview-title {
   z-index: 1;
 }
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(-90deg);
   }
